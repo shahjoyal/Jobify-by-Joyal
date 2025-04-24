@@ -54,7 +54,7 @@ const Landing = () => {
             job <span>tracking</span> app
           </h1>
           <p>
-           it is a job tracking app that helps you keep track of your job applications
+           it is a job tracking app and analyzer that helps you keep track of your job applications
            it is created by joyal Chirag Shah ,
            It is a full stack application that uses the MERN stack
            there are many features in this app like you can add a job, delete a job, update a job, and also see the stats of the jobs

@@ -27,8 +27,11 @@ export const action =
 
 const Profile = () => {
   const { user } = useOutletContext();
-
   const { name, lastName, email, location } = user;
+
+  const handleRedirect = () => {
+    window.open('https://jobfy-app.streamlit.app/', '_blank'); // Replace 'https://example.com' with your link
+  };
 
   return (
     <Wrapper>
@@ -59,11 +62,15 @@ const Profile = () => {
           <SubmitBtn formBtn />
         </div>
       </Form>
+      <button
+        type='button'
+        className='btn btn-block' // Add appropriate CSS class for styling
+        onClick={handleRedirect}
+      >
+        ATS Checker
+      </button>
     </Wrapper>
   );
 };
+
 export default Profile;
-// const Profile = () => {
-//   return <h1>Profile</h1>;
-// };
-// export default Profile;

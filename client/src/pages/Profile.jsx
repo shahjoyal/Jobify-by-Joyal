@@ -64,7 +64,7 @@ const Profile = () => {
       </Form>
       <button
         type='button'
-        className='btn btn-block' // Add appropriate CSS class for styling
+        className='btn' // Add appropriate CSS class for styling
         onClick={handleRedirect}
       >
         ATS Checker
